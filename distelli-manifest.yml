@@ -1,4 +1,4 @@
-<username>/gobuilddeploy:
+psimkins/gobuilddeploy:
   # Distelli Manifest example
   # this example assumes the build and deploy servers are:
   # The same architecture (32 vs 64 bit)
@@ -6,7 +6,7 @@
   # Installed Packages: apt-get
   #
     
-  PreRelease:
+  Build:
     - echo "–--Beginning PreRelease---"
     - echo "--Installing build dependencies--"
     - echo "-Updating apt-get-"
